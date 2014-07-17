@@ -1,15 +1,15 @@
 @font-face{ 
-  font-family: 'sonsie One';
-  src: url('../fonts/Sonsie One-webfont.eot');
-  src: url('../fonts/Sonsie One-WebFont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/Sonsie One.woff') format('woff'),
-       url('../fonts/Sonsie One.ttf') format('truetype'),
-       url('../fonts/Sonsie One.svg#webfont') format('svg');
+  font-family: 'Sonsie One';
+  src: url('../fonts/sonsieone-regular-webfont.eot');
+  src: url('../fonts/sonsieone-regular-WebFont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sonsieone-regular-webfont.woff') format('woff'),
+       url('../fonts/sonsieone-regular-webfont.ttf') format('truetype'),
+       url('../fonts/sonsieone-regular-webfont.svg#sonsie_oneregular') format('svg');
 }
 
 
 body {
-  background: url(../img/.jpg) no-repeat center center fixed; 
+  background: url(../img/congruent_pentagon.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,8 +42,12 @@ hr {
 
 #color_text{position: absolute;
             top: 35%}
+
 #color_text p{font-size: 12px}
 
+.icons{position:relative;
+      bottom: 65px;
+      }
 
 .address-bar {
   display: none;
@@ -59,6 +63,8 @@ hr {
   font-weight: 900;
 
 }
+
+footer{margin-top: 60px;}
 
 .navbar-nav {
   text-transform: uppercase;
@@ -105,9 +111,8 @@ hr {
   margin: 0 auto 0;
 }
 
-footer {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+footer {background: #F7931E;
+  border:  solid 2px;
 }
 
 footer p {
@@ -116,6 +121,11 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
+    #smalllogo{visibility: hidden;}
+
+    #navbar-default{background: #F7931E;
+  border:  solid 2px;
+  }
 
 .brand {
   display: inherit;
@@ -157,7 +167,7 @@ footer p {
 
 .navbar-default {
   background: #fff;
-  background: #F7931E;);
+  background: #F7931E;
   border:  solid 2px;
 }
 
